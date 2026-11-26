@@ -150,10 +150,8 @@ fun DaftarSiswa(
             ItemSiswa(
                 siswa = person,
                 modifier = Modifier
-                    .padding(dimensionResource(id = R.dimen
-                        .padding_small))
+                    .padding(dimensionResource(id = R.dimen.padding_small))
                 //edit 2.2 jadikan itemsiswa menjadi clickable
-                    ()
             )
         }
     }
